@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9AE345">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="125dp"
+            android:text="Igra Skočko"
+            android:textColor="#673AB7"
+            android:textSize="44sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/button_pokreni"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="187dp"
+            android:layout_height="69dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="400dp"
+            android:clickable="false"
+            android:text="Pokreni Igru"
+            android:textColor="#FFEB3B"
+            android:textStyle="bold|italic"
+            android:typeface="monospace"
+            app:backgroundTint="#E4009688"
+            app:strokeColor="#F10A0A" />
+    </FrameLayout>
+</LinearLayout>
